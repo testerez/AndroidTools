@@ -1,17 +1,17 @@
 AndroidTools
 ============
 
-Command line tools for Android developers. For now there is only one available command.
+`AndroidTools` is a command line tools for Android developers. It will some day provide many commands but there is only one available for the time being.
     
-Command 'copyres'
-----------------
+copyres
+-------
 Find and copy all versions of a resourse from one res folder to another.
 
-Expected usage:
-    AndroidTools.exe copyres <options>
+usage:
     
-<options> available:
-  -f, --force                Overwrite destination file if exists
-  -s, --source=VALUE         Source res path
-  -d, --destination=VALUE    Destination res path
-  -r, --res=VALUE            res name (with extension)
+    AndroidTools copyres <options>
+
+  - `-f, --force`                Overwrite destination file if exists
+  - `-s, --source=VALUE`         Source res path
+  - `-d, --destination=VALUE`    Destination res path
+  - `-r, --res=VALUE`            res name (with extension)
