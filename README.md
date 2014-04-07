@@ -11,7 +11,7 @@ usage:
     
     AndroidTools copyres <options>
 
-  - `-f, --force`                Overwrite destination file if exists
   - `-s, --source=VALUE`         Source res path
   - `-d, --destination=VALUE`    Destination res path
   - `-r, --res=VALUE`            res name (with extension)
+  - `-f, --force`                Overwrite destination file if exists
